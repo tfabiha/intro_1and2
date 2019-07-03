@@ -1,0 +1,97 @@
+p, h1   {
+    margin: 3%;
+}
+
+p, ol, ul, h1 {
+    color: #47899E;
+}
+
+h1  {
+    text-align: center;
+    
+}
+
+body    {
+	background: #36C4D1; 
+	background: -webkit-linear-gradient(left top, #36C4D1, #235BBC); 
+	background: -o-linear-gradient(bottom right, #36C4D1, #235BBC); 
+	background: -moz-linear-gradient(bottom right, #36C4D1, #235BBC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #36C4D1, #235BBC);
+	text-align: justify;
+	font-family: Comic Sans MS;
+}
+
+div {
+    border-radius: 20px;
+    background-color: #E9E4D8;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    overflow-x: hidden;
+	overflow-y: hidden;
+    box-shadow: inset 3px -3px 10px 10px gray;
+    
+}
+
+#head {
+    background-color: #6FB2B7;
+    box-shadow: inset 3px -3px 10px 10px #47899E;
+    margin-bottom: 5%;
+}
+
+#subhead    {
+    background-color: #6FB2B7;
+    box-shadow: inset 3px -3px 10px 10px #47899E;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#subhead2    {
+    background-color: #6FB2B7;
+    box-shadow: inset 3px -3px 10px 10px #47899E;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#break	{
+	margin-bottom: 5%;
+}
+
+h2  {
+    color: #E5E6E1;
+    text-align: center;
+	text-decoration: underline;
+}
+
+ol, ul  {
+    margin-left: 10%;
+}
+
+#pic    {
+    background-color: unset;
+    box-shadow: unset;
+}
+
+img {
+    border-radius: 20px;
+    margin-right: 5%;
+    width: 150px;
+    height: 150px;
+    margin-top: 2%;
+}
+
+.in   {
+    float: left;
+}
+
+.into   {
+    float: left;
+	width: 450px;
+	height: 300px;
+	margin-left: 7%;
+	
+}

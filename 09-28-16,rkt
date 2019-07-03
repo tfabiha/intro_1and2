@@ -1,0 +1,29 @@
+#|
+(even? 13)
+(define (my_even x) (if (= (modulo x 2) 0) #t #f))
+(my_even 7)
+(my_even 54)
+(my_even -8)
+(my_even -9)
+
+(define (max2 a b) (if (> a b) a b))
+(define (max3 x y z) (max2 (max2 x y) z))
+(max3 5 7 3)
+(max3 9 2 7)
+(max3 12 3 15)
+
+(define (max4 q w e r) (max2 (max3 q w e) r))
+(max4 2 4 6 7)
+(max4 7 5 21 5)
+|#
+
+(define (tograde s) (cond
+                      ((<= 0 s 64) 0)
+                      ((<= 65 s 75) 1)
+                      ((<= 76 s 90) 2)
+                      (else 3)
+                      ))
+(tograde 66)
+(tograde 84)
+(tograde 99)
+(tograde 33)

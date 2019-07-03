@@ -1,0 +1,5 @@
+<form action="createAccount.py" method="POST">
+ Email:<input type="text" name="newUserEmail">
+ Password:<input type="password" name="newUserPassword">
+ <input type="submit" value="login">
+</form>

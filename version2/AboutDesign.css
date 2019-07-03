@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+#header{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+    width:100%;
+    height:50px;
+    overflow:hidden;
+    background-color:black;
+    border-bottom: 2px solid black;
+    
+    
+}
+
+#head{
+    float:center;
+    display:inline-block;
+    font-size:40px;
+
+} 
+
+#head a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:4px 16px;
+    text-decoration:none;
+    text-shadow:2px 2px #7BD24B;
+    font-family: BankGothic;
+}
+
+#head a:hover{
+    background-color:#e1e5f2;
+
+}
+
+#about {
+    background-color:#65ae51;
+    width:80%;
+    height:800px;
+    margin-top:0px;
+  
+}
+
+#team {
+    background-color:#437735;
+    font-size:40px;
+    font-family: BankGothic;
+    color:white;
+    text-shadow:3px 3px black;
+}
+
+@font-face{
+    font-family:"BankGothic";
+    src: url('BankGothic.tff') format('truetype');
+}
+
+#backstory {
+    background-color:#437735;
+    font-size:40px;
+    margin-top:0px;
+    font-family:BankGothic;
+    text-shadow: 3px 3px black;
+    color:white;
+}
+
+#teampic{
+    margin-top:0px;
+}
